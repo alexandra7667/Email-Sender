@@ -11,7 +11,7 @@
 <?import javafx.scene.layout.VBox?>
 
 <SplitPane dividerPositions="0.46316964285714285" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="450.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml"
-           fx:controller="com.example.emailsender_3_2_1.Controller">
+           fx:controller="com.example.emailsender.Controller">
     <items>
         <Pane prefHeight="200.0" prefWidth="200.0">
             <children>
@@ -31,7 +31,7 @@
                 <VBox alignment="TOP_RIGHT" layoutX="190.0" prefHeight="200.0" prefWidth="396.0" spacing="6.0">
                     <children>
                         <TextField fx:id="textFieldServer" promptText="smtp.gmail.se" />
-                        <TextField fx:id="textFieldUsername" promptText="alex.hernstrom@gmail.com" />
+                        <TextField fx:id="textFieldUsername" promptText="xxx@gmail.com" />
                         <PasswordField fx:id="passwordField" />
                         <TextField fx:id="textFieldFrom" />
                         <TextField fx:id="textFieldTo" />

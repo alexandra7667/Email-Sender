@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-    <artifactId>EmailSender_3_2_1</artifactId>
+    <artifactId>EmailSender</artifactId>
     <version>1.0-SNAPSHOT</version>
-    <name>EmailSender_3_2_1</name>
+    <name>EmailSender</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -60,7 +60,7 @@
                         <!-- Default configuration for running with: mvn clean javafx:run -->
                         <id>default-cli</id>
                         <configuration>
-                            <mainClass>com.example.emailsender_3_2_1.Launcher
+                            <mainClass>com.example.emailsender.Launcher
                             </mainClass>
                             <launcher>app</launcher>
                             <jlinkZipName>app</jlinkZipName>
